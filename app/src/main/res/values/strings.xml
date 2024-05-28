@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food Ordering</string>
+    <string name="footer">Design By\nDiepNT</string>
+    <string name="Food_Ordering_A_01">Waves Of Food</string>
+    <string name="Food_Ordering_A_02">Deliver Favorite Food</string>
+    <string name="Food_Ordering_A_03">Next</string>
+    <string name="Food_Ordering_A_04">Enjoy Restaurant Quality Meals \nat Home</string>
+</resources>

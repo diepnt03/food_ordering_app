@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.SearchFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="search"
+        android:textSize="24dp" />
+
+    <!--    <androidx.appcompat.widget.SearchView-->
+    <!--        android:id="@+id/searchView"-->
+    <!--        android:queryBackground="@android:color/transparent"-->
+    <!--        android:background="@drawable/searchshape"-->
+    <!--        android:iconifiedByDefault="true"-->
+    <!--        android:searchIcon="@drawable/ic_search"-->
+    <!--        android:queryHint="What do you want to order?"-->
+    <!--        android:layout_margin="8dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/searchshape"
+        android:focusable="false"
+        android:queryHint="What do you want to order?"
+        app:iconifiedByDefault="false"
+        app:queryBackground="@null"
+        app:submitBackground="@null" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="Menu"
+        android:textSize="24dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_original"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -5,4 +5,6 @@
     <string name="Food_Ordering_A_02">Deliver Favorite Food</string>
     <string name="Food_Ordering_A_03">Next</string>
     <string name="Food_Ordering_A_04">Enjoy Restaurant Quality Meals \nat Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
